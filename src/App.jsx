@@ -512,7 +512,8 @@ export default function App() {
     <div
       style={{
         minHeight: "100vh",
-        background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        background:
+          "linear-gradient(135deg,rgb(255, 0, 0) 0%,rgb(229, 255, 0) 100%)",
         padding: "40px 20px",
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
       }}
@@ -534,29 +535,17 @@ export default function App() {
             fontSize: "2rem",
             fontWeight: "700",
             marginBottom: "40px",
-            background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+            background:
+              "linear-gradient(135deg,rgb(255, 0, 0) 0%,rgb(255, 255, 255) 100%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             backgroundClip: "text",
+            textTransform: "uppercase",
+            letterSpacing: "2px",
           }}
         >
-          sınav geçme methodu -{">"}{" "}
+          SERFİRAZ SARA HOCA!
         </h1>
-        <div style={{ textAlign: "center" }}>
-          <a
-            style={{
-              color: "blue",
-              textDecoration: "underline",
-              fontSize: "1.5rem",
-              fontWeight: "600",
-              marginBottom: "20px",
-              textAlign: "center",
-            }}
-            href="https://i.ytimg.com/vi/hZpdMOMip2E/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUChUMA8=&rs=AOn4CLA1QWn2fHZcGCFb3Lo3UKcl5vqwEQ"
-          >
-            tıkla!
-          </a>
-        </div>
 
         {questions.map((q, qi) => (
           <div
