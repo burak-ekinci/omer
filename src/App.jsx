@@ -3,30 +3,6 @@ import { useState } from "react";
 const questions = [
   {
     question:
-      "1. Aşağıdakilerden hangisi obezite gelişiminde rol oynayan hormonal bir faktördür?",
-    options: [
-      "A) Yetersiz su tüketimi",
-      "B) Artmış leptin duyarlılığı",
-      "C) İnsülin direnci",
-      "D) Yüksek protein alımı",
-      "E) Artan fiziksel aktivite",
-    ],
-    answer: 2,
-  },
-  {
-    question:
-      "2. Aşağıdaki bireylerden hangisine farmakolojik tedavi önerilmesi en uygundur?",
-    options: [
-      "A) BKİ: 24, bel çevresi: 85 cm, sağlıklı birey",
-      "B) BKİ: 27, bel çevresi: 92 cm, ek hastalığı yok",
-      "C) BKİ: 32, tip 2 diyabet tanısı olan birey",
-      "D) BKİ: 28, düzenli egzersiz yapan birey",
-      "E) BKİ: 30'un altında, sadece diyet yapan birey",
-    ],
-    answer: ,
-  },
-  {
-    question:
       "1. Azot vücutta en çok hangi yapıların sentezinde temel bileşen olarak yer alır?",
     options: [
       "A) Yağ asitleri",
@@ -35,7 +11,7 @@ const questions = [
       "D) Karbonhidratlar",
       "E) Vitaminler",
     ],
-    answer: ,
+    answer: 2,
   },
   {
     question:
@@ -47,7 +23,7 @@ const questions = [
       "D) Amonyak, üreye çevrilerek vücuttan atılır",
       "E) Protein metabolizmasının atık ürünlerini uzaklaştırır",
     ],
-    answer: ,
+    answer: 1,
   },
   {
     question:
@@ -59,7 +35,7 @@ const questions = [
       "D) Tirozin",
       "E) Urasil",
     ],
-    answer: ,
+    answer: 1,
   },
   {
     question:
@@ -71,7 +47,7 @@ const questions = [
       "D) Aşırı sıvı alımı",
       "E) Bazı ilaçların yan etkisi",
     ],
-    answer: ,
+    answer: 3,
   },
   {
     question:
@@ -83,7 +59,7 @@ const questions = [
       "D) Glutamattan glutamin sentezini katalizleyerek azotu biyomoleküllere entegre eder",
       "E) Amonyağın kana geçişini sağlayan taşıyıcıdır",
     ],
-    answer: ,
+    answer: 3,
   },
   {
     question:
@@ -95,7 +71,7 @@ const questions = [
       "D) DNA ve RNA sentezi",
       "E) Kan pıhtılaşması",
     ],
-      answer: ,
+    answer: 3,
   },
   {
     question: "7. Kalsiyum homeostazını düzenleyen hormonlardan biri değildir:",
@@ -106,7 +82,7 @@ const questions = [
       "D) Aldosteron",
       "E) Hepsi",
     ],
-    answer: ,
+    answer: 3,
   },
   {
     question: "8. Magnezyum vücutta en çok hangi bölgede bulunur?",
@@ -117,7 +93,7 @@ const questions = [
       "D) Beyin",
       "E) Bağırsaklar",
     ],
-    answer: ,
+    answer: 1,
   },
   {
     question:
@@ -129,7 +105,7 @@ const questions = [
       "D) Xylidyl Blue",
       "E) Calmagite",
     ],
-    answer: ,
+    answer: 2,
   },
   {
     question:
@@ -141,7 +117,7 @@ const questions = [
       "D) Bromfenol Mavisi",
       "E) Hematoksilin",
     ],
-    answer: ,
+    answer: 2,
   },
   {
     question:
@@ -153,7 +129,7 @@ const questions = [
       "D) Sinir sinyallerinin iletilmesini hızlandırmak",
       "E) Bağışıklık hücrelerinin üretimini yönetmek",
     ],
-    answer: ,
+    answer: 1,
   },
   {
     question:
@@ -165,7 +141,7 @@ const questions = [
       "D) Transferrin bağlı demir",
       "E) Lipozomal demir",
     ],
-    answer: ,
+    answer: 1,
   },
   {
     question:
@@ -177,7 +153,7 @@ const questions = [
       "D) Miyoglobin",
       "E) Sitokrom",
     ],
-    answer: ,
+    answer: 2,
   },
   {
     question:
@@ -189,7 +165,7 @@ const questions = [
       "D) Hem demirinin emilimini baskılar",
       "E) Transferrin sentezini azaltır",
     ],
-      answer: ,
+    answer: 1,
   },
   {
     question:
@@ -201,12 +177,12 @@ const questions = [
       "D) Karaciğer enzimlerinde kalıcı artış",
       "E) Anormal besin istekleri (toprak, buz)",
     ],
-    answer: ,
+    answer: 3,
   },
   {
     question: "16. Fosfat vücutta en çok hangi yapıda bulunur?",
     options: ["A) Kas", "B) Kan", "C) Kemik", "D) Karaciğer", "E) Mide"],
-    answer: ,
+    answer: 2,
   },
   {
     question:
@@ -218,7 +194,7 @@ const questions = [
       "D) Glukagon",
       "E) Tiroksin",
     ],
-    answer: ,
+    answer: 1,
   },
   {
     question: "18. Kanda fosfat miktarı hangi yöntemle ölçülür?",
@@ -229,7 +205,7 @@ const questions = [
       "D) Stetoskopla",
       "E) Ultrasonla",
     ],
-    answer: ,
+    answer: 2,
   },
   {
     question: "19. Fosfat eksikliği olan bir kişide hangisi görülmez?",
@@ -240,7 +216,7 @@ const questions = [
       "D) Yüksek tansiyon",
       "E) Halsizlik",
     ],
-    answer: ,
+    answer: 3,
   },
   {
     question: "20. Fosfat hangi besinde fazlaca bulunur?",
@@ -251,7 +227,7 @@ const questions = [
       "D) Yağ",
       "E) Tuz",
     ],
-    answer: ,
+    answer: 1,
   },
   {
     question:
@@ -263,7 +239,7 @@ const questions = [
       "D) Baş ağrısı",
       "E) Nöbetler",
     ],
-    answer: ,
+    answer: 2,
   },
   {
     question:
@@ -275,7 +251,7 @@ const questions = [
       "D) Hücre içi potasyumun düşük tutulmasını sağlar",
       "E) Membran potansiyelinin korunmasında rol oynar",
     ],
-    answer: ,
+    answer: 3,
   },
   {
     question:
@@ -287,7 +263,7 @@ const questions = [
       "D) Kalp kasını güçlendirmek",
       "E) Klor seviyesini düzenlemek",
     ],
-      answer: ,
+    answer: 2,
   },
   {
     question:
@@ -299,7 +275,7 @@ const questions = [
       "D) Western Blot",
       "E) PCR",
     ],
-    answer: ,
+    answer: 2,
   },
   {
     question:
@@ -311,7 +287,7 @@ const questions = [
       "D) Diyabetik ketoasidoz",
       "E) Sodyumun normal aralıkta olması",
     ],
-    answer: ,
+    answer: 4,
   },
   {
     question:
@@ -323,7 +299,7 @@ const questions = [
       "D) Ozon",
       "E) Singlet oksijen",
     ],
-    answer: ,
+    answer: 2,
   },
   {
     question:
@@ -346,7 +322,7 @@ const questions = [
       "D) Hücre bölünmesinin hızlanması",
       "E) Enzim aktivitesinin azalması",
     ],
-    answer: ,
+    answer: 2,
   },
   {
     question:
@@ -358,7 +334,7 @@ const questions = [
       "D) Diyabet",
       "E) Parkinson",
     ],
-      answer: ,
+    answer: 2,
   },
   {
     question:
@@ -370,7 +346,7 @@ const questions = [
       "D) Glutatyon peroksidaz",
       "E) NADPH",
     ],
-    answer: ,
+    answer: 1,
   },
   {
     question: "31. Sinovyal sıvının başlıca işlevi nedir?",
@@ -381,7 +357,7 @@ const questions = [
       "D) Sürtünmeyi azaltmak",
       "E) Kemik iliği üretimini desteklemek",
     ],
-    answer: ,
+    answer: 3,
   },
   {
     question:
@@ -393,7 +369,7 @@ const questions = [
       "D)osteofit",
       "E)subkomdral skleroz",
     ],
-    answer: ,
+    answer: 0,
   },
   {
     question:
@@ -405,19 +381,13 @@ const questions = [
       "D) Akutve kronik iltihapları",
       "E) Seröz ve sinovyal sıvıları",
     ],
-    answer: 2,
+    answer: 1,
   },
   {
     question:
       "34.  1. Noninflamatuar 2. inflamatuar 3. hemorajik 4. septik  yukarıdakilerden hangisi veya hangileri sinoviyal sıvı sınıflandırılmasına aittir?",
-    options: [
-      "A) 1ve2",
-      "B) 3ve4",
-      "C) hepsi",
-      "D) 2,3ve 4",
-      "E) 1,2ve 3",
-    ],
-      answer: ,
+    options: ["A) 1ve2", "B) 3ve4", "C) hepsi", "D) 2,3ve 4", "E) 1,2ve 3"],
+    answer: 2,
   },
   {
     question:
@@ -429,7 +399,7 @@ const questions = [
       "D) donezepil",
       "E) adenozin",
     ],
-    answer: ,
+    answer: 0,
   },
   {
     question:
@@ -440,7 +410,7 @@ const questions = [
       "C) Vücut ısısını düzenlemek.",
       "D) Atık maddelerin uzaklaştırılmasına yardımcı olmak.",
     ],
-    answer: ,
+    answer: 2,
   },
 
   {
@@ -452,7 +422,7 @@ const questions = [
       "C) Grip.",
       "D) Psödotümör serebri.",
     ],
-    answer: ,
+    answer: 2,
   },
   {
     question:
@@ -463,18 +433,17 @@ const questions = [
       "C) Beyinle ilgili cerrahi müdahaleler.",
       "D) Menenjit gibi beyin zarlarını etkileyen hastalıklar.",
     ],
-    answer: ,
+    answer: 1,
   },
   {
-    question:
-      "39. Omurilik sıvısı kaçağının en yaygın belirtisi nedir?",
+    question: "39. Omurilik sıvısı kaçağının en yaygın belirtisi nedir?",
     options: [
       "A) Mide bulantısı ve halsizlik.",
       "B) Şiddetli baş ağrıları.",
       "C) İşitme kaybı.",
       "D) Sırt ağrıları.",
     ],
-    answer: ,
+    answer: 1,
   },
   {
     question:
@@ -485,18 +454,17 @@ const questions = [
       "C) Baş ağrısı.",
       "D) Enfeksiyon.",
     ],
-      answer: ,
+    answer: 2,
   },
   {
-    question:
-      "41. Çinko vücutta en çok hangi organlarda depolanır?",
+    question: "41. Çinko vücutta en çok hangi organlarda depolanır?",
     options: [
       "A) Kalp, akciğer, pankreas",
       "B) Kaslar, kemikler, karaciğer",
       "C) Beyin, mide, bağırsak",
       "D) Dalak, böbrek, karaciğer",
     ],
-    answer: ,
+    answer: 1,
   },
   {
     question:
@@ -507,40 +475,33 @@ const questions = [
       "C) Göz kararması",
       "D) Hızlı kilo alımı",
     ],
-    answer: ,
+    answer: 1,
   },
   {
-    question:
-      "43. Aşağıdaki durumlardan hangisi çinko emilimini azaltabilir?",
+    question: "43. Aşağıdaki durumlardan hangisi çinko emilimini azaltabilir?",
     options: [
       "A) Yüksek proteinli diyet",
       "B) Düzenli egzersiz",
       "C) Bitkisel beslenmedeki fitat içeriği",
       "D) Yüksek kalsiyum alımı",
     ],
-    answer: ,
+    answer: 2,
   },
   {
-    question:
-      "44. Aşağıdaki yöntemlerden hangisi çinko tayininde kullanılır?",
+    question: "44. Aşağıdaki yöntemlerden hangisi çinko tayininde kullanılır?",
     options: [
       "A) Elisa testi",
       "B) MR görüntüleme",
       "C) Alevli Atomik Absorpsiyon Spektrofotometresi (AAS)",
       "D) PCR testi",
     ],
-    answer: ,
+    answer: 2,
   },
   {
     question:
       "45. Aşağıdaki ilaçlardan hangisi çinko ile şelat oluşturarak emilimini azaltır?",
-    options: [
-      "A) Parasetamol",
-      "B) Penisilin",
-      "C) Tetrasiklin",
-      "D) Aspirin",
-    ],
-    answer: ,
+    options: ["A) Parasetamol", "B) Penisilin", "C) Tetrasiklin", "D) Aspirin"],
+    answer: 2,
   },
 ];
 
