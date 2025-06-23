@@ -23,7 +23,7 @@ const questions = [
       "D) BKİ: 28, düzenli egzersiz yapan birey",
       "E) BKİ: 30'un altında, sadece diyet yapan birey",
     ],
-    answer: 1,
+    answer: ,
   },
   {
     question:
@@ -35,11 +35,11 @@ const questions = [
       "D) Karbonhidratlar",
       "E) Vitaminler",
     ],
-    answer: 1,
+    answer: ,
   },
   {
     question:
-      "2. Aşağıdaki açıklamalardan hangisi Üre Döngüsü'nün bir özelliği değildir?",
+      "2. Aşağıdaki açıklamalardan hangisi Üre Döngüsü’nün bir özelliği değildir?",
     options: [
       "A) Karaciğerde gerçekleşir",
       "B) Amonyağı daha toksik bir maddeye dönüştürür",
@@ -47,7 +47,7 @@ const questions = [
       "D) Amonyak, üreye çevrilerek vücuttan atılır",
       "E) Protein metabolizmasının atık ürünlerini uzaklaştırır",
     ],
-    answer: 3,
+    answer: ,
   },
   {
     question:
@@ -59,7 +59,7 @@ const questions = [
       "D) Tirozin",
       "E) Urasil",
     ],
-    answer: 3,
+    answer: ,
   },
   {
     question:
@@ -71,7 +71,7 @@ const questions = [
       "D) Aşırı sıvı alımı",
       "E) Bazı ilaçların yan etkisi",
     ],
-    answer: 3,
+    answer: ,
   },
   {
     question:
@@ -79,11 +79,11 @@ const questions = [
     options: [
       "A) Üre sentezini doğrudan gerçekleştiren enzimdir",
       "B) Glutaminden glutamat sentezler",
-      "C) Amonyağı doğrudan DNA'ya bağlar",
+      "C) Amonyağı doğrudan DNA’ya bağlar",
       "D) Glutamattan glutamin sentezini katalizleyerek azotu biyomoleküllere entegre eder",
       "E) Amonyağın kana geçişini sağlayan taşıyıcıdır",
     ],
-    answer: 3,
+    answer: ,
   },
   {
     question:
@@ -95,7 +95,7 @@ const questions = [
       "D) DNA ve RNA sentezi",
       "E) Kan pıhtılaşması",
     ],
-    answer: 3,
+      answer: ,
   },
   {
     question: "7. Kalsiyum homeostazını düzenleyen hormonlardan biri değildir:",
@@ -106,7 +106,7 @@ const questions = [
       "D) Aldosteron",
       "E) Hepsi",
     ],
-    answer: 3,
+    answer: ,
   },
   {
     question: "8. Magnezyum vücutta en çok hangi bölgede bulunur?",
@@ -117,7 +117,7 @@ const questions = [
       "D) Beyin",
       "E) Bağırsaklar",
     ],
-    answer: 1,
+    answer: ,
   },
   {
     question:
@@ -129,7 +129,7 @@ const questions = [
       "D) Xylidyl Blue",
       "E) Calmagite",
     ],
-    answer: 2,
+    answer: ,
   },
   {
     question:
@@ -141,7 +141,7 @@ const questions = [
       "D) Bromfenol Mavisi",
       "E) Hematoksilin",
     ],
-    answer: 2,
+    answer: ,
   },
   {
     question:
@@ -153,7 +153,7 @@ const questions = [
       "D) Sinir sinyallerinin iletilmesini hızlandırmak",
       "E) Bağışıklık hücrelerinin üretimini yönetmek",
     ],
-    answer: 1,
+    answer: ,
   },
   {
     question:
@@ -165,7 +165,7 @@ const questions = [
       "D) Transferrin bağlı demir",
       "E) Lipozomal demir",
     ],
-    answer: 1,
+    answer: ,
   },
   {
     question:
@@ -177,7 +177,7 @@ const questions = [
       "D) Miyoglobin",
       "E) Sitokrom",
     ],
-    answer: 2,
+    answer: ,
   },
   {
     question:
@@ -189,7 +189,7 @@ const questions = [
       "D) Hem demirinin emilimini baskılar",
       "E) Transferrin sentezini azaltır",
     ],
-    answer: 1,
+      answer: ,
   },
   {
     question:
@@ -201,12 +201,12 @@ const questions = [
       "D) Karaciğer enzimlerinde kalıcı artış",
       "E) Anormal besin istekleri (toprak, buz)",
     ],
-    answer: 3,
+    answer: ,
   },
   {
     question: "16. Fosfat vücutta en çok hangi yapıda bulunur?",
     options: ["A) Kas", "B) Kan", "C) Kemik", "D) Karaciğer", "E) Mide"],
-    answer: 2,
+    answer: ,
   },
   {
     question:
@@ -218,7 +218,7 @@ const questions = [
       "D) Glukagon",
       "E) Tiroksin",
     ],
-    answer: 1,
+    answer: ,
   },
   {
     question: "18. Kanda fosfat miktarı hangi yöntemle ölçülür?",
@@ -229,7 +229,7 @@ const questions = [
       "D) Stetoskopla",
       "E) Ultrasonla",
     ],
-    answer: 2,
+    answer: ,
   },
   {
     question: "19. Fosfat eksikliği olan bir kişide hangisi görülmez?",
@@ -240,7 +240,7 @@ const questions = [
       "D) Yüksek tansiyon",
       "E) Halsizlik",
     ],
-    answer: 3,
+    answer: ,
   },
   {
     question: "20. Fosfat hangi besinde fazlaca bulunur?",
@@ -251,7 +251,7 @@ const questions = [
       "D) Yağ",
       "E) Tuz",
     ],
-    answer: 1,
+    answer: ,
   },
   {
     question:
@@ -263,7 +263,7 @@ const questions = [
       "D) Baş ağrısı",
       "E) Nöbetler",
     ],
-    answer: 2,
+    answer: ,
   },
   {
     question:
@@ -275,7 +275,7 @@ const questions = [
       "D) Hücre içi potasyumun düşük tutulmasını sağlar",
       "E) Membran potansiyelinin korunmasında rol oynar",
     ],
-    answer: 3,
+    answer: ,
   },
   {
     question:
@@ -287,7 +287,7 @@ const questions = [
       "D) Kalp kasını güçlendirmek",
       "E) Klor seviyesini düzenlemek",
     ],
-    answer: 2,
+      answer: ,
   },
   {
     question:
@@ -299,7 +299,7 @@ const questions = [
       "D) Western Blot",
       "E) PCR",
     ],
-    answer: 2,
+    answer: ,
   },
   {
     question:
@@ -311,7 +311,7 @@ const questions = [
       "D) Diyabetik ketoasidoz",
       "E) Sodyumun normal aralıkta olması",
     ],
-    answer: 4,
+    answer: ,
   },
   {
     question:
@@ -323,7 +323,7 @@ const questions = [
       "D) Ozon",
       "E) Singlet oksijen",
     ],
-    answer: 2,
+    answer: ,
   },
   {
     question:
@@ -346,7 +346,7 @@ const questions = [
       "D) Hücre bölünmesinin hızlanması",
       "E) Enzim aktivitesinin azalması",
     ],
-    answer: 2,
+    answer: ,
   },
   {
     question:
@@ -358,7 +358,7 @@ const questions = [
       "D) Diyabet",
       "E) Parkinson",
     ],
-    answer: 2,
+      answer: ,
   },
   {
     question:
@@ -370,7 +370,7 @@ const questions = [
       "D) Glutatyon peroksidaz",
       "E) NADPH",
     ],
-    answer: 1,
+    answer: ,
   },
   {
     question: "31. Sinovyal sıvının başlıca işlevi nedir?",
@@ -381,7 +381,7 @@ const questions = [
       "D) Sürtünmeyi azaltmak",
       "E) Kemik iliği üretimini desteklemek",
     ],
-    answer: 3,
+    answer: ,
   },
   {
     question:
@@ -393,7 +393,7 @@ const questions = [
       "D)osteofit",
       "E)subkomdral skleroz",
     ],
-    answer: 0,
+    answer: ,
   },
   {
     question:
@@ -405,13 +405,19 @@ const questions = [
       "D) Akutve kronik iltihapları",
       "E) Seröz ve sinovyal sıvıları",
     ],
-    answer: 1,
+    answer: 2,
   },
   {
     question:
       "34.  1. Noninflamatuar 2. inflamatuar 3. hemorajik 4. septik  yukarıdakilerden hangisi veya hangileri sinoviyal sıvı sınıflandırılmasına aittir?",
-    options: ["A) 1ve2", "B) 3ve4", "C) hepsi", "D) 2,3ve 4", "E) 1,2ve 3"],
-    answer: 2,
+    options: [
+      "A) 1ve2",
+      "B) 3ve4",
+      "C) hepsi",
+      "D) 2,3ve 4",
+      "E) 1,2ve 3",
+    ],
+      answer: ,
   },
   {
     question:
@@ -423,7 +429,7 @@ const questions = [
       "D) donezepil",
       "E) adenozin",
     ],
-    answer: 0,
+    answer: ,
   },
   {
     question:
@@ -434,7 +440,7 @@ const questions = [
       "C) Vücut ısısını düzenlemek.",
       "D) Atık maddelerin uzaklaştırılmasına yardımcı olmak.",
     ],
-    answer: 2,
+    answer: ,
   },
 
   {
@@ -446,7 +452,7 @@ const questions = [
       "C) Grip.",
       "D) Psödotümör serebri.",
     ],
-    answer: 2,
+    answer: ,
   },
   {
     question:
@@ -457,17 +463,18 @@ const questions = [
       "C) Beyinle ilgili cerrahi müdahaleler.",
       "D) Menenjit gibi beyin zarlarını etkileyen hastalıklar.",
     ],
-    answer: 1,
+    answer: ,
   },
   {
-    question: "39. Omurilik sıvısı kaçağının en yaygın belirtisi nedir?",
+    question:
+      "39. Omurilik sıvısı kaçağının en yaygın belirtisi nedir?",
     options: [
       "A) Mide bulantısı ve halsizlik.",
       "B) Şiddetli baş ağrıları.",
       "C) İşitme kaybı.",
       "D) Sırt ağrıları.",
     ],
-    answer: 1,
+    answer: ,
   },
   {
     question:
@@ -478,17 +485,18 @@ const questions = [
       "C) Baş ağrısı.",
       "D) Enfeksiyon.",
     ],
-    answer: 2,
+      answer: ,
   },
   {
-    question: "41. Çinko vücutta en çok hangi organlarda depolanır?",
+    question:
+      "41. Çinko vücutta en çok hangi organlarda depolanır?",
     options: [
       "A) Kalp, akciğer, pankreas",
       "B) Kaslar, kemikler, karaciğer",
       "C) Beyin, mide, bağırsak",
       "D) Dalak, böbrek, karaciğer",
     ],
-    answer: 1,
+    answer: ,
   },
   {
     question:
@@ -499,33 +507,40 @@ const questions = [
       "C) Göz kararması",
       "D) Hızlı kilo alımı",
     ],
-    answer: 1,
+    answer: ,
   },
   {
-    question: "43. Aşağıdaki durumlardan hangisi çinko emilimini azaltabilir?",
+    question:
+      "43. Aşağıdaki durumlardan hangisi çinko emilimini azaltabilir?",
     options: [
       "A) Yüksek proteinli diyet",
       "B) Düzenli egzersiz",
       "C) Bitkisel beslenmedeki fitat içeriği",
       "D) Yüksek kalsiyum alımı",
     ],
-    answer: 2,
+    answer: ,
   },
   {
-    question: "44. Aşağıdaki yöntemlerden hangisi çinko tayininde kullanılır?",
+    question:
+      "44. Aşağıdaki yöntemlerden hangisi çinko tayininde kullanılır?",
     options: [
       "A) Elisa testi",
       "B) MR görüntüleme",
       "C) Alevli Atomik Absorpsiyon Spektrofotometresi (AAS)",
       "D) PCR testi",
     ],
-    answer: 2,
+    answer: ,
   },
   {
     question:
       "45. Aşağıdaki ilaçlardan hangisi çinko ile şelat oluşturarak emilimini azaltır?",
-    options: ["A) Parasetamol", "B) Penisilin", "C) Tetrasiklin", "D) Aspirin"],
-    answer: 2,
+    options: [
+      "A) Parasetamol",
+      "B) Penisilin",
+      "C) Tetrasiklin",
+      "D) Aspirin",
+    ],
+    answer: ,
   },
 ];
 
@@ -536,8 +551,7 @@ export default function App() {
     <div
       style={{
         minHeight: "100vh",
-        background:
-          "linear-gradient(135deg,rgb(255, 0, 0) 0%,rgb(255, 251, 0) 100%)",
+        background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
         padding: "40px 20px",
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
       }}
@@ -548,7 +562,7 @@ export default function App() {
           margin: "0 auto",
           background: "#ffffff",
           borderRadius: "20px",
-          padding: "20px",
+          padding: "40px",
           boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
         }}
       >
@@ -559,15 +573,29 @@ export default function App() {
             fontSize: "2rem",
             fontWeight: "700",
             marginBottom: "40px",
-            background:
-              "linear-gradient(135deg,rgb(240, 47, 47) 0%,rgb(217, 255, 1) 100%)",
+            background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             backgroundClip: "text",
           }}
         >
-          SERFİRAZ SARA HOCA!
+          sınav geçme methodu -{">"}{" "}
         </h1>
+        <div style={{ textAlign: "center" }}>
+          <a
+            style={{
+              color: "blue",
+              textDecoration: "underline",
+              fontSize: "1.5rem",
+              fontWeight: "600",
+              marginBottom: "20px",
+              textAlign: "center",
+            }}
+            href="https://i.ytimg.com/vi/hZpdMOMip2E/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUChUMA8=&rs=AOn4CLA1QWn2fHZcGCFb3Lo3UKcl5vqwEQ"
+          >
+            tıkla!
+          </a>
+        </div>
 
         {questions.map((q, qi) => (
           <div
@@ -580,7 +608,6 @@ export default function App() {
               marginBottom: "30px",
               boxShadow: "0 4px 6px rgba(0,0,0,0.05)",
               transition: "all 0.3s ease",
-              width: "85%",
             }}
           >
             <h2
@@ -597,11 +624,7 @@ export default function App() {
             </h2>
 
             <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: "12px",
-              }}
+              style={{ display: "flex", flexDirection: "column", gap: "12px" }}
             >
               {q.options.map((opt, oi) => {
                 const isSelected = selected[qi] === oi;
@@ -655,12 +678,14 @@ export default function App() {
                     }}
                     onMouseEnter={(e) => {
                       if (!isSelected) {
+                        e.target.style.backgroundColor = "#f1f5f9";
                         e.target.style.borderColor = "#cbd5e1";
                         e.target.style.transform = "translateX(2px)";
                       }
                     }}
                     onMouseLeave={(e) => {
                       if (!isSelected) {
+                        e.target.style.backgroundColor = "#ffffff";
                         e.target.style.borderColor = "#e2e8f0";
                         e.target.style.transform = "none";
                       }
