@@ -1617,7 +1617,7 @@ export default function App() {
           style={{
             textAlign: "center",
             color: "#2d3748",
-            fontSize: "2.5rem",
+            fontSize: "2rem",
             fontWeight: "700",
             marginBottom: "40px",
             background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -1626,8 +1626,23 @@ export default function App() {
             backgroundClip: "text",
           }}
         >
-          insta: lambdavnc (hertürlü yazılım işleri itinayla yapılır...)
+          sınav geçme methodu -{">"}{" "}
         </h1>
+        <div style={{ textAlign: "center" }}>
+          <a
+            style={{
+              color: "blue",
+              textDecoration: "underline",
+              fontSize: "1.5rem",
+              fontWeight: "600",
+              marginBottom: "20px",
+              textAlign: "center",
+            }}
+            href="https://i.ytimg.com/vi/hZpdMOMip2E/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUChUMA8=&rs=AOn4CLA1QWn2fHZcGCFb3Lo3UKcl5vqwEQ"
+          >
+            tıkla!
+          </a>
+        </div>
 
         {questions.map((q, qi) => (
           <div
