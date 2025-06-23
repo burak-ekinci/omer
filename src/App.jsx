@@ -1638,7 +1638,7 @@ export default function App() {
               marginBottom: "20px",
               textAlign: "center",
             }}
-            href="https://i.ytimg.com/vi/hZpdMOMip2E/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUChUMA8=&rs=AOn4CLA1QWn2fHZcGCFb3Lo3UKcl5vqwEQ"
+            href="https://i.pinimg.com/736x/88/c8/22/88c822bc02d7a81f54b57ff784ac2c0c.jpg"
           >
             tıkla!
           </a>
